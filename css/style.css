@@ -1,0 +1,30 @@
+
+
+figcaption
+{
+    display: flex;
+    justify-content: center;
+}
+
+ol li 
+{
+    display: inline-block
+}
+
+img 
+{
+    width: 150px;
+    height: 150px;
+}
+
+a 
+{ 
+    margin-top: 10px;
+    display:block
+}
+
+video 
+{
+    width: 350px;
+    height: 250px;
+}
