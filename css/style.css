@@ -126,3 +126,37 @@ header
     margin:0;
     padding: 2rem;
 }
+
+
+form
+{
+    margin:2rem;
+    background-color: white;
+    padding:1rem;
+}
+
+form label
+{
+    display: inline-block;
+}
+
+form > input 
+{
+    display:block;
+    width: 15rem;
+    height: 3rem;
+       
+}
+
+footer
+{
+    background-color: black;
+    color:red;
+    padding:2rem;
+    
+}
+
+footer p 
+{
+ text-align: center;
+}
