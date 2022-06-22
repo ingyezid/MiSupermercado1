@@ -20,15 +20,26 @@ figcaption
     justify-content: center;
 }
 
+
+
 ol li 
 {
-    display: inline-block
+    display: inline-block;       
+}
+
+ol
+{
+    padding: 1rem 2rem;
+    display:flex;
+    justify-content: space-between;
+    
 }
 
 img 
 {
     width: 15.0rem;
     height: 15.0rem;
+    border-radius: 3rem;
 }
 
 a 
@@ -41,4 +52,20 @@ video
 {
     width: 35.0rem;
     height: 25.0rem;
+}
+
+.Grupo 
+{
+    border:0.2rem dotted gray;
+    border-radius: 0rem 0rem 5rem 5rem;
+    margin: 3rem;
+    list-style-type:none;    
+}
+
+.Grupo > p
+{
+    text-align: center;
+    border:double;
+    text-transform: uppercase;
+
 }
